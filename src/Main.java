@@ -4,10 +4,10 @@ public class Main {
         int depositAmount = 1_000; //сумма пополнения
         int bonus;  //бонус
 
-        if (depositAmount < 1100) {
+        if (depositAmount < 1000) {
             bonus = 0;
         } else {
-            bonus = (depositAmount / 100) - 10;
+            bonus = depositAmount / 100;
         }
 
         //итоговая сумма
